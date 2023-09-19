@@ -1,0 +1,12 @@
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/phonetest
+    username: account
+    password: account123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+        hibernate:
+          dialect: org.hibernate.dialect.PostgreSQLDialect
